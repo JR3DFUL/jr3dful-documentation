@@ -1,5 +1,4 @@
 site_name: JR3DFUL Addons & Assets
-site_url: https://JR3DFUL.github.io/jr3dful-documentation/
 theme:
   name: material
   features:
@@ -52,12 +51,14 @@ markdown_extensions:
   - pymdownx.mark
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - md_in_html
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - md_in_html 
+  
 
-copyright: 
-  "&copy; 2025 <a href='https://github.com/JR3DFUL' target='_blank' rel='noopener'>JR3DFUL</a>"
+copyright:
+  © 2025 <a href="https://github.com/JR3DFUL" target="_blank" rel="noopener">Jedi Roman</a>
+
 
 nav:
   - 'Home': 'index.md'
