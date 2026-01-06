@@ -1,0 +1,95 @@
+site_name: JR3DFUL Addons & Assets
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: green
+      accent: light green
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: green
+      accent: light green
+
+extra:
+  social:
+    - icon: fontawesome/regular/address-card
+      link: https://jr3d.carrd.co/
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/jr3dful.bsky.social
+    - icon: fontawesome/brands/discord
+      link: https://test.com
+
+markdown_extensions:
+  - toc:
+      toc_depth: 2
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - md_in_html 
+  
+
+copyright:
+  © 2025 <a href="https://github.com/JR3DFUL" target="_blank" rel="noopener">Jedi Roman</a>
+
+
+nav:
+  - 'Home': 'index.md'
+  - 'Vertex Color Kit':
+    - 'Overview': 'vck/vck_index.md'
+    - 'Modifiers':
+      - 'Mix & Mask': 'vck/vc_mix_and_mask.md'
+      - 'VC Blur': 'vck/vc_blur.md'
+      - 'VC Contrast': 'vck/vc_contrast.md'
+      - 'VC Desaturate': 'vck/vc_desaturate.md'
+      - 'VC Erase': 'vck/vc_erase.md'
+      - 'VC From Attribute Float': 'vck/vc_from_attribute_float.md'
+      - 'VC From Attribute Vector': 'vck/vc_from_attribute_vector.md'
+      - 'VC From Cavity': 'vck/vc_from_cavity.md'
+      - 'VC From Color': 'vck/vc_from_color.md'
+      - 'VC From Face ID': 'vck/vc_from_face_id.md'
+      - 'VC From Image': 'vck/vc_from_image.md'
+      - 'VC From Material ID': 'vck/vc_from_material_id.md'
+      - 'VC From Mesh ID': 'vck/vc_from_mesh_id.md'
+      - 'VC From Noise': 'vck/vc_from_noise.md'
+      - 'VC From Normal Tangent Space': 'vck/vc_from_normal_tangent_space.md'
+      - 'VC From Normal World Space': 'vck/vc_from_normal_world_space.md'
+      - 'VC From Normal Local Space': 'vck/vc_from_normal_local_space.md'
+      - 'VC From Position': 'vck/vc_from_position.md'
+      - 'VC From UV': 'vck/vc_from_uv.md'
+      - 'VC From UV Island ID': 'vck/vc_from_uv_island_id.md'
+      - 'VC From Vertex ID': 'vck/vc_from_vertex_id.md'
+      - 'VC Invert': 'vck/vc_invert.md'
+      - 'VC Preview': 'vck/vc_preview.md'
+      - 'VC Swizzle': 'vck/vc_swizzle.md'
+      - 'VC To UV': 'vck/vc_to_uv.md'
+      - 'VC To Vertex Group': 'vck/vc_to_vertex_group.md'
+    - 'Installation': 'vck/vck_installation.md'
+    - 'Troubleshooting': 'vck/vck_troubleshooting.md'
