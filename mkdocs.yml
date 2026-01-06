@@ -56,8 +56,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
 
-copyright: 
-  "&copy; 2025 <a href='https://github.com/JR3DFUL' target='_blank' rel='noopener'>JR3DFUL</a>"
+copyright: "&copy; 2025 <a href='https://github.com/JR3DFUL' target='_blank' rel='noopener'>JR3DFUL</a>"
 
 nav:
   - 'Home': 'index.md'
